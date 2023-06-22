@@ -62,8 +62,8 @@ const DatePicker: FC<IDatePickerProps> = () => {
     }
 
     return (
-        <div className="container px-4 py-2 mx-auto md:py-10">
-            <div className="w-full mb-5">
+        <div className="container py-2 mx-auto md:py-10">
+            <div className="w-full">
                 <label htmlFor="datepicker" className="block mb-1 text-sm font-medium text-neutral-500">Select Date</label>
                 <div className="relative w-[17rem]">
                     <input type="text"
@@ -84,7 +84,7 @@ const DatePicker: FC<IDatePickerProps> = () => {
                     </div>
 
                     {isOpen && (
-                        <div className="absolute top-0 left-0 max-w-lg p-4 mt-12 antialiased bg-white border rounded-lg shadow w-[17rem] border-neutral-200/70">
+                        <div className="absolute top-0 left-0 z-40 max-w-lg p-4 mt-12 antialiased bg-white border rounded-lg shadow w-[17rem] border-neutral-200/70">
                             <div className="flex items-center justify-between mb-2">
                                 <div>
                                     <span className="text-lg font-bold text-gray-800">{monthNames[date.getMonth()]}</span>
