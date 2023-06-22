@@ -13,7 +13,7 @@ export default function Home() {
 
           <DatePicker />
           <p className={'}mt-2 text-center text-xs leading-5 text-zinc-400 hover:text-orange-500'}>
-            <Link target={'_blank'} href="https://github.com/tomredf/react-tailwind-date-picker-demo.git">View on Github</Link>
+            <Link target={'_blank'} href="https://github.com/tomredf/react-tailwind-date-picker.git">View on Github</Link>
           </p>
           <p className={'mt-2 text-center text-xs leading-5 text-zinc-400 hover:text-orange-500'}>
             <Link target={'_blank'} href="https://clarasoftware.com">© {new Date().getFullYear()} Clara Software (Dermot Fitzpatrick) All rights reserved. </Link>
