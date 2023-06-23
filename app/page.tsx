@@ -3,6 +3,7 @@ import Link from "next/link";
 import DatePicker from "../Components/DatePicker";
 import Clipboard from "@/Components/Clipboard";
 import Photos from "@/Components/Photos";
+import HoverCard from "@/Components/HoverCard";
 
 type Photo = {
   url: string;
@@ -41,6 +42,10 @@ export default function Home() {
 
           <div className={'pb-4'}>
             <Clipboard />
+          </div>
+
+          <div className={'pb-4'}>
+            <HoverCard />
           </div>
 
           <div className={'pb-4'}>
